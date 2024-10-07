@@ -1,0 +1,34 @@
+:root {
+    --heading-background-color: rgb(175, 145, 110, 0.9);
+    --heading-text-color: #333;
+    --heading-font: 'Roboto', sans-serif;
+}
+
+p{
+    font-family:var(--heading-font)
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.absolute {
+    position: absolute;
+}
+
+article img {
+    float: none;
+    display: block;
+}
+
+.styled {
+    background-color:var(--heading-background-color);
+    color: var(--heading-text-color);
+
+}
