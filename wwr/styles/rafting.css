@@ -46,7 +46,7 @@ h2, h3, p {
 
 .hero-body h1 {
     color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-weight: 100;
 }
 
