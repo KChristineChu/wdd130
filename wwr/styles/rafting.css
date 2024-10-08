@@ -3,7 +3,7 @@
     --secondary-color: rgb(123, 204, 197);
     --accent1: rgb(175, 145, 110);
     --accent2: rgb(115, 61, 44);
-    --text-color: #333;
+    --text-color: white;
 }
     
 h1, h2 {
@@ -42,14 +42,12 @@ p{
 .hero-body {
     display: flex;
     flex-direction: row;
-    color: white;
 }
 
 .hero-heading {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 /* .hero img {
