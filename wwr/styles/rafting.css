@@ -36,6 +36,11 @@ p{
     height: 400px;
 }
 
+.hero-body {
+    display: flex;
+    flex-direction: row;
+}
+
 .hero img {
     display: block;
     width: 100%;
