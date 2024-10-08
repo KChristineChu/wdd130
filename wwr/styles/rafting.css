@@ -7,13 +7,8 @@
     --text-color2: black;
 }
     
-h1 {
-    color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-}
 
-h2, p {
+h2, h3, p {
     color: var(--text-color2);
     font-weight: 400;
 }
@@ -46,7 +41,16 @@ h2, p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 10px;   
+}
+
+.hero-body h1 {
+        color: var(--text-color);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+}
+
+.hero-body p{
     color: var(--text-color);
     font-weight: 400;
 }
