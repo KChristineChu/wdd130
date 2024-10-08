@@ -4,6 +4,7 @@
     --accent1: rgb(175, 145, 110);
     --accent2: rgb(115, 61, 44);
     --text-color: white;
+    --text-color2: black;
 }
     
 h1, h2 {
@@ -12,8 +13,8 @@ h1, h2 {
     font-weight: 100;
 }
 
-p{
-    color: var(--text-color);
+p {
+    color: var(--text-color2);
     font-weight: 400;
 }
 
@@ -27,13 +28,13 @@ p{
 }
 
 .hero {
-    background-image: url("C:\\Users\\kchri\\OneDrive\\Documents\\wdd130\\wwr\\images\\hero.jpg");
-    background-size: fill;
+    background-image: url("C:/Users/kchri/OneDrive/Documents/wdd130/wwr/images/hero.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,6 +47,8 @@ p{
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    color: var(--text-color);
+    font-weight: 400;
 }
 
 .hero-heading {
@@ -55,10 +58,13 @@ p{
     margin-bottom: 40px;
 }
 
+
+
+
 /* .hero img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 300px;
 } */
 
 /* .hero h1 {
@@ -68,7 +74,7 @@ p{
 } */
 
 article {
-    position: absolute;
+    position: relative;
 }
     
 article img {
