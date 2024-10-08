@@ -42,12 +42,14 @@ p{
 .hero-body {
     display: flex;
     flex-direction: row;
+    color: white;
 }
 
 .hero-heading {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 /* .hero img {
