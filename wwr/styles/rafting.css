@@ -41,17 +41,23 @@ p{
     flex-direction: row;
 }
 
+.hero-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+/* .hero h1 {
     position: absolute;
     top: 40px;
     left: 20px;
-}
+} */
 
 article {
     position: absolute;
