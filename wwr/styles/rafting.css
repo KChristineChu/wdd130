@@ -44,11 +44,6 @@ h2, h3, p {
     gap: 10px;   
 }
 
-.hero-body h1 {
-    color: var(--text-color);
-    /* font-family: 'Roboto', sans-serif; */
-    font-weight: 100;
-}
 
 .hero-body p{
     color: var(--text-color);
@@ -56,6 +51,8 @@ h2, h3, p {
 }
 
 .hero-heading {
+    color: var(--text-color);
+    font-weight: 100;
     display: flex;
     justify-content: center;
     align-items: center;
