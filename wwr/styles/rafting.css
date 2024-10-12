@@ -7,7 +7,11 @@
     --text-color2: black;
 }
     
+.home-grid{
+    display: grid;
 
+
+}
 h2, h3, p {
     color: var(--text-color2);
     font-weight: 400;
