@@ -14,6 +14,7 @@ header.home-grid{
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 2px;
+}
 
 .logo {
     width: 100px;
@@ -36,7 +37,6 @@ header.home-grid{
     text-align: center;
 }
 
-}
 h2, h3, p {
     color: var(--text-color2);
     font-weight: 400;
@@ -72,8 +72,6 @@ h2 {
     grid-gap: 20px;
     padding: 20px;
 }   
-
-
 
 .flexbox-container3{
     display: flex;
