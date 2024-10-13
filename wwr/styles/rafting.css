@@ -1,20 +1,88 @@
 :root {
     --primary-color: rgb(239, 208, 52);
     --secondary-color: rgb(123, 204, 197);
-    --accent1: rgb(175, 145, 110);
-    --accent2: rgb(115, 61, 44);
+    --accent1: rgb(180, 158, 139);
+    --accent2: rgb(111, 80, 71);
     --text-color: white;
     --text-color2: black;
 }
-    
-.home-grid{
+header, footer{
+    background-color: var(--primary-color);
+}    
+header.home-grid{
     display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 2px;
 
+.logo {
+    width: 100px;
+    height: auto;
+    border: 2px solid var(--accent2);
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexbox-item a {
+    text-decoration: none;
+    width: 80px;
+    background-color: white;
+    border: 1px solid #333;
+    display: block;
+    text-align: center;
+    
+
+}
 
 }
 h2, h3, p {
     color: var(--text-color2);
     font-weight: 400;
+}
+
+.flexbox-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.adventure-body{
+    background-color: var(--accent1);
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.section-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}   
+
+
+
+.flexbox-container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
 }
 
 .sociallinks a {
@@ -45,7 +113,8 @@ h2, h3, p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;   
+    gap: 10px; 
+     
 }
 
 
@@ -62,6 +131,8 @@ h2, h3, p {
     align-items: center;
     margin-bottom: 40px;
 }
+
+
 
 
 
