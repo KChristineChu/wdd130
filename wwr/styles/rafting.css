@@ -172,25 +172,11 @@ h2 {
     margin-bottom: 40px;
 }
 
-
-
-
-
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 } 
-
-/*.hero h1 {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    color: white;
-    z-index: 2;
-    
-} */
 
 .hero article {
     position: absolute;
@@ -205,7 +191,7 @@ h2 {
     align-items: center;
 }
 
-.hero article p{
+.hero article p {
     margin: 0;
     flex: 1;
 }
