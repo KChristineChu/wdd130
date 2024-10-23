@@ -8,7 +8,38 @@
 }
 header, footer{
     background-color: var(--primary-color);
-}    
+}
+
+.hero-text{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: navy;
+    text-align: center;
+    background-color:rgba(213, 201, 201, 0.7); ;
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}   
+
+.home-item{
+    
+    padding: 1 rem;
+    text-align: center;
+}   
+
+.home-item img {
+    
+    width: 250px;
+    height: 160px;
+    border-radius: 8px;
+}
+
 header.home-grid{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -37,7 +68,7 @@ header.home-grid{
     text-align: center;
 }
 
-h2, h3, p {
+h2, h3, h4, p {
     color: var(--text-color2);
     font-weight: 400;
 }
@@ -91,7 +122,7 @@ h2 {
 }
 
 .hero {
-    background-image: url("../images/hero.jpg");
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
