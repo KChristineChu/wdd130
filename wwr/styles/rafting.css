@@ -24,33 +24,42 @@ header, footer {
     color: navy;
     text-align: center;
     background-color:rgba(213, 201, 201, 0.7);
-    width: 40%;
+    width: 100%;
     height: 40px;
-    border-radius: 5px; 
+    
 }
 
-.home-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: var(--secondary-color);
-}   
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
 
-.home-item{
+.home-item {
+    background-color: beige;
+    border: 3px solid var(--accent2);
+    border-radius: 5px;
+    padding: 10px;
     text-align: center;
-}   
+    overflow: hidden;
+}
 
 .home-item img {
-    
-    width: 260px;
-    height: 160px;
-    border-radius: 8px;
-    border: 3px solid var(--accent2);
+    max-width: 100%;
+    height: auto;
 }
 
 .call {
     background-color: var(--accent1);
-    
+    padding: 30px;
+    text-align: center;
+    margin: 0;   
+}
+
+.call a {
+    color: blue;
+    font-weight: bold;
 }
 
 header.home-grid{
@@ -161,7 +170,6 @@ h2 {
     gap: 10px; 
      
 }
-
 
 .hero-body p {
     color: var(--text-color);
